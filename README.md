@@ -26,7 +26,8 @@ The ETL flow:
 ```
 Data Engineering ETL Project/
 |──Data/
-|  └── Data.txt #the raw data & database
+|   |── online_retail_ii.csv #raw data
+|   └── Data.txt #database
 ├── OLTP (retail_dw)/                          # Staging-stage transformations (raw → clean)
 │   ├── DataIngestionRaw.ktr
 │   ├── Cleaned.ktr
