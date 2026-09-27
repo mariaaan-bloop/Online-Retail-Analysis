@@ -25,6 +25,10 @@ The ETL flow:
 
 ```
 Data Engineering ETL Project/
+|──Data/
+|  |──online_retail_ii #the raw dataset used for this project
+|  |──retail_db.sql # the staging database
+|  |──retail_dw.sql # the star schema database
 ├── OLTP (retail_dw)/                          # Staging-stage transformations (raw → clean)
 │   ├── DataIngestionRaw.ktr
 │   ├── Cleaned.ktr
