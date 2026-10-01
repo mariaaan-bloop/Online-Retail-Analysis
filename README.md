@@ -1,4 +1,4 @@
-# 📊 Automated End-to-End Data Pipeline for Online Retail Analytics
+# Automated End-to-End Data Pipeline for Online Retail Analytics
 
 **A Data Engineering / ETL Project**
 
@@ -8,7 +8,7 @@ The core focus of this project is building a production-style **ETL and data war
 
 ---
 
-## 📝 Project Overview
+## Project Overview
 
 Raw retail transaction data is typically noisy — full of duplicates, missing values, and inconsistent formatting — which makes it unsuitable for direct analysis. This project builds an **ETL pipeline** that processes **~400,000 transactions** from the *Online Retail II* dataset (2010–2011, Kaggle) into a form that is reliable, structured, and ready for business analysis.
 
@@ -21,7 +21,7 @@ The ETL flow:
 
 ---
 
-## 🗂️ Repository Structure
+## Repository Structure
 
 ```
 Data Engineering ETL Project/
@@ -49,7 +49,7 @@ Data Engineering ETL Project/
 
 ---
 
-## 🏗️ Data Pipeline Architecture
+## Data Pipeline Architecture
 
 ```mermaid
 flowchart LR
@@ -70,7 +70,7 @@ Storage is designed in two layers:
 
 ---
 
-## ⭐ Star Schema Design
+## Star Schema Design
 
 - **Fact table:** `sales_fact` — stores numeric transaction data (quantity, price, total sales) plus foreign keys to every dimension table.
 - **Dimension tables:**
@@ -96,7 +96,7 @@ The pipeline uses an **incremental load strategy** based on an `etl_metadata` ta
 
 ---
 
-## 🚀 How to Run the Pipeline
+## How to Run the Pipeline
 
 **Prerequisites:**
 - Pentaho Data Integration (Spoon/Kitchen) installed
@@ -111,18 +111,18 @@ The pipeline uses an **incremental load strategy** based on an `etl_metadata` ta
 4. For daily automation, register the `.bat` file with **Windows Task Scheduler**.
 5. Open `PBI Project.pbix` and refresh the data source connection to view the latest dashboard.
 
-> ⚠️ The `.sql` database dump is **not included in this repository** due to file size limits — it's available via the Google Drive link below.
+> The `.sql` database dump is **not included in this repository** due to file size limits — it's available via the Google Drive link below.
 
 ---
 
-## 🔗 Related Links
+## Related Links
 
 - **Database (.sql):** [Google Drive](https://drive.google.com/drive/folders/1y7ep0jES0kBgJ6vaaNBM3hZ2ClxGmFTd?usp=drive_link)
-- **Power BI Report (online):** [Power BI Service](https://app.powerbi.com/groups/me/reports/6833f003-82b3-48f4-a03e-cdd428e92e62/4d3e1a554ace3ccbc8b8?experience=power-bi) *(requires access/login)*
+- **Power BI Report (online):** [Power BI Service]([https://app.powerbi.com/groups/me/reports/6833f003-82b3-48f4-a03e-cdd428e92e62/4d3e1a554ace3ccbc8b8?experience=power-b](https://app.powerbi.com/groups/me/reports/bff59bd0-b8df-45f4-bcc0-5f1e8deb0170/e558cd035594e0953591?experience=power-bi)i) *(requires access/login)*
 
 ---
 
-## 📈 Key Insights from the Dashboard
+##  Key Insights from the Dashboard
 
 - **Total revenue:** $8.75 million from **5 million units sold**, averaging **$475.50 per order**.
 - The **"Paper Craft"** category accounts for ~28% of revenue among the top 5 products; **"PaperCraft Little Birdie"** is the best-selling product by both volume and average price.
@@ -134,7 +134,7 @@ The pipeline uses an **incremental load strategy** based on an `etl_metadata` ta
 
 ---
 
-## 🔮 Recommendations
+## Recommendations
 
 - Introduce automated post-purchase loyalty programs to reduce the early customer retention drop.
 - Prioritize the EIRE market as a testing ground for loyalty strategies.
@@ -143,12 +143,12 @@ The pipeline uses an **incremental load strategy** based on an `etl_metadata` ta
 
 ---
 
-## 📄 Full Documentation
+## Full Documentation
 
 Detailed methodology, literature review, and evaluation are available in [`FINAL PAPER.pdf`](./FINAL%20PAPER.pdf).
 
 ---
 
-## 📜 License
+## License
 
 This project was built for academic purposes as part of a Data Engineering course and is not intended for commercial use.
