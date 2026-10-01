@@ -118,7 +118,7 @@ The pipeline uses an **incremental load strategy** based on an `etl_metadata` ta
 ## Related Links
 
 - **Database (.sql):** [Google Drive](https://drive.google.com/drive/folders/1y7ep0jES0kBgJ6vaaNBM3hZ2ClxGmFTd?usp=drive_link)
-- **Power BI Report (online):** [Power BI Service]([https://app.powerbi.com/groups/me/reports/6833f003-82b3-48f4-a03e-cdd428e92e62/4d3e1a554ace3ccbc8b8?experience=power-b](https://app.powerbi.com/groups/me/reports/bff59bd0-b8df-45f4-bcc0-5f1e8deb0170/e558cd035594e0953591?experience=power-bi)i) *(requires access/login)*
+- **Power BI Report (online):** [Power BI Service](https://app.powerbi.com/groups/me/reports/bff59bd0-b8df-45f4-bcc0-5f1e8deb0170/e558cd035594e0953591?experience=power-bi) *(requires access/login)*
 
 ---
 
